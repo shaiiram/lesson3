@@ -29,7 +29,7 @@ jobs:
       - name: list folder
         run: ls
       - name: where am i
-      - run: pwd
+        run: pwd
  # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
       - name: second list folder
